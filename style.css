@@ -1,0 +1,180 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color: rgb(13, 13, 110);
+    margin: 0;
+}
+.main-container{
+    color: white;
+    text-align: center;
+}
+.lista-nav{
+    background-color: rgb(26, 87, 138);
+    text-align: center;
+}
+
+.nav__li{
+    display: inline-block;
+    padding: 10px;
+    text-align: center;
+    color: white;
+
+}
+
+.nav__li:hover{
+    color: black;
+    cursor: pointer;
+}
+
+
+.text-container{
+    color: white;
+    text-align: center;
+    padding: 10x;
+    
+}
+header{
+    font-size: 40px;
+    color: white;
+    background-color:rgb(26, 87, 138);
+    padding: 10px;
+    margin: 0;
+    text-align: center;
+    text-decoration:overline;
+}
+
+footer{
+    background-color: rgb(26, 87, 138) ;
+    text-align: center;
+    color: white;
+    padding: 1px;
+
+}
+
+.footer__li{
+    color: white;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 3px;
+    margin: 5px;
+
+}
+
+.conocer>a {
+    color: white;
+}
+
+.conocer > a:hover{
+    color: black;
+} 
+
+
+.imagen{
+    border-radius: 150px;
+    box-sizing: border-box;
+    width: 300px;
+    height: 300px;
+    display: block;
+    margin: auto;
+    padding: 15px;
+}
+
+a:hover{
+    color: white;
+    cursor: pointer;
+}
+
+.nav__li > a {
+    color: white;
+    text-decoration: none;
+} 
+
+.nav__li>a:hover{
+    cursor: pointer;
+    color: black;
+}
+
+.footer__li > a {
+    color: white;
+    text-decoration:none;
+    display: inline-block;
+}
+
+.footer__li > a:hover{
+    cursor: pointer;
+    color: black;
+    text-decoration: underline;
+}
+
+.imagen-vida{
+    width: 300px;
+    height: 300px;
+    margin: auto;
+    border-radius: 150px;
+    animation: spin 4s 5;
+    border-radius: 150px;
+    animation-direction: alternate-reverse;
+
+}
+
+.vida-container{
+    color: white;
+    margin: 10px;
+    justify-content: space-between;
+}
+
+.historia h2 {
+    text-align: center;
+    text-decoration: underline;
+}
+
+.historia h3 {
+    text-align: center;
+}
+.volver-al-inicio{
+    text-align: right;
+    margin: 10px;
+}
+
+.volver-al-inicio > a{
+    color:white;
+
+}
+
+.volver-al-inicio > a:hover{
+    color: black;
+    cursor: pointer;
+
+}
+
+.laion > a{
+    color: white;
+}
+
+.laion > :hover{
+    color: black;
+    cursor: pointer;
+}
+
+@media(max-width:750px){
+    .main-container{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@keyframes spin{
+    from{
+        transform: rotate(0deg);
+    }
+
+
+    to{
+        transform: rotate(360deg);
+    }
+}
+
